@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { CEP } from '../modules/cep';
+import { CEP } from 'src/app/modules/ViaCep/cep';
 
 @Injectable({
   providedIn: 'root',
