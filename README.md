@@ -2,26 +2,55 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ AngularViaCep
+ 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Pereira-Araujo/users-api/blob/main/LICENSE.md)
 
-## Code scaffolding
+:heavy_check_mark: Program for study withi public API  :stuck_out_tongue:	
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  
+      
+## project's goal
 
-## Build
+Have a personal project base to test features and small programs in angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Next steps:
 
-## Running unit tests
+ - Create an dashboard to show some functions that i made for work or study
+ - add an responsive sidenav
+ - add buttons with links to my social networks
+ - add an page with informations about the project
+ - add an page about myself with contact
+ - post the project using github paghes
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### what i used
+- [Angular Material](https://material.angular.io/) 
+- [Charts.js](https://www.npmjs.com/package/ng2-charts)
 
-## Further help
+### tutorials that helped me:
+- [Dashboard](https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics/)
+- [Sidebar](https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+### Instruction to run the project
+
+Install [NodeJs](https://nodejs.org/en/)
+
+at the terminal, clone the project:
+```
+git clone 
+```
+
+install dependencies:
+```
+npm install
+```
+
+run the application:
+```
+npm start 
+```
