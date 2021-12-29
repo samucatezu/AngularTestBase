@@ -1,6 +1,7 @@
 # AngularTestBase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Angular project to be the base of my features/tests and projects.
+
 
 
  AngularViaCep
@@ -37,6 +38,7 @@ Have a personal project base to test features and small programs in angular
 
 
 ### Instruction to run the project
+Obs: This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 Install [NodeJs](https://nodejs.org/en/)
 
