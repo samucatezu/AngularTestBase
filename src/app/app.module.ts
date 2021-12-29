@@ -23,16 +23,17 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { AppRoutingModule } from './app-routing.module';
-import { CardComponent } from './card/card.component';
 import { CepHomeComponent } from './features/cep-home/cep-home.component';
 import { CepDetailsComponent } from './features/cep-details/cep-details.component';
+import { ProfileComponent } from './profile/profile.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     layoutComponent,
     DashComponent,
-    CardComponent,
+    ProfileComponent,
     CepHomeComponent,
     CepDetailsComponent,
   ],
