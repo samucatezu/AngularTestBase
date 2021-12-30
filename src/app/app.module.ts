@@ -18,25 +18,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { layoutComponent } from './Layout/layout.component';
-import { DashComponent } from './dash/dash.component';
+
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { AppRoutingModule } from './app-routing.module';
-import { CepHomeComponent } from './features/cep-home/cep-home.component';
-import { CepDetailsComponent } from './features/cep-details/cep-details.component';
-import { ProfileComponent } from './profile/profile.component';
-
+import { TestFieldComponent } from './test-field/test-field.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    layoutComponent,
-    DashComponent,
-    ProfileComponent,
-    CepHomeComponent,
-    CepDetailsComponent,
-  ],
+  declarations: [AppComponent, layoutComponent, TestFieldComponent],
   imports: [
     BrowserModule,
     MatToolbarModule,
