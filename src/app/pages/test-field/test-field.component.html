@@ -63,23 +63,20 @@
       </button>
     </a>
 
-    <a style="color: white; text-decoration: none" [routerLink]="['/layout']">
+    <a style="color: white; text-decoration: none" [routerLink]="['/about']">
       <button mat-button class="menu-button">
-        <mat-icon>home</mat-icon>
-        <span>home</span>
+        <mat-icon>info</mat-icon>
+        <span>About</span>
       </button>
     </a>
-    <button mat-button class="menu-button">
-      <mat-icon>info</mat-icon>
-      <span>About</span>
-    </button>
 
     <mat-divider></mat-divider>
-
-    <button mat-button class="menu-button">
-      <mat-icon>help</mat-icon>
-      <span>Help</span>
-    </button>
+    <a style="color: white; text-decoration: none" [routerLink]="['/help']">
+      <button mat-button class="menu-button">
+        <mat-icon>help</mat-icon>
+        <span>Help</span>
+      </button>
+    </a>
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-card class="principal">
