@@ -1,4 +1,4 @@
-<mat-toolbar style="gap: 0.2rem" color="primary">
+<mat-toolbar style="gap: 0.2rem; font-family: Roboto Mono" color="primary">
   <button
     mat-icon-button
     *ngIf="sidenav.mode === 'over'"
@@ -38,7 +38,7 @@
   </a>
 </mat-toolbar>
 
-<mat-sidenav-container>
+<mat-sidenav-container style="font-family: Roboto Mono">
   <mat-sidenav
     #sidenav="matSidenav"
     class="sidenav mat-elevation-z4"
@@ -54,7 +54,6 @@
 
     <mat-divider></mat-divider>
     <a
-      target="blank_"
       style="color: white; text-decoration: none"
       [routerLink]="['/testfield']"
     >
@@ -64,36 +63,51 @@
       </button>
     </a>
 
-    <a
-      target="blank_"
-      style="color: white; text-decoration: none"
-      [routerLink]="['/layout']"
-    >
+    <a style="color: white; text-decoration: none" [routerLink]="['/layout']">
       <button mat-button class="menu-button">
         <mat-icon>home</mat-icon>
         <span>home</span>
       </button>
     </a>
-    <button mat-button class="menu-button">
-      <mat-icon>info</mat-icon>
-      <span>About</span>
-    </button>
+    <a style="color: white; text-decoration: none" [routerLink]="['/about']">
+      <button mat-button class="menu-button">
+        <mat-icon>info</mat-icon>
+        <span>About</span>
+      </button>
+    </a>
 
     <mat-divider></mat-divider>
-
-    <button mat-button class="menu-button">
-      <mat-icon>help</mat-icon>
-      <span>Help</span>
-    </button>
+    <a style="color: white; text-decoration: none" [routerLink]="['/help']">
+      <button mat-button class="menu-button">
+        <mat-icon>help</mat-icon>
+        <span>Help</span>
+      </button>
+    </a>
   </mat-sidenav>
   <mat-sidenav-content>
     <div style="display: flex">
       <mat-card
-        style="height: 24rem; width: 30rem"
+        style="height: 31rem; width: 30rem"
         class="card mat-elevation-z8"
       >
-        <h1 style="text-align: center; font-weight: bold">Intro</h1>
-        <h3 style="font-size: 20px">
+        <mat-card-title
+          style="
+            text-align: center;
+            font-weight: bold;
+            color: rgb(245, 209, 9);
+            font-family: Roboto Mono;
+            margin-bottom: 1rem;
+          "
+          >Intro</mat-card-title
+        >
+
+        <h3
+          style="
+            font-size: 20px;
+            color: rgb(245, 209, 9);
+            font-family: Roboto Mono;
+          "
+        >
           Since I was a child, I have been passionate about technology and
           business. At age 12 I discovered the universe of software development
           and now, more experienced, I entered the university in my dream area.
@@ -103,34 +117,18 @@
           development at my github profile. I'm good at English and am currently
           studying German.
         </h3>
-        <div style="text-align: center">
-          <a
-            href=" https://www.linkedin.com/in/samuel-almeida-ads/"
-            target="_blank"
-          >
-            <img
-              src="https://img.icons8.com/ios-glyphs/40/3f51b5/linkedin.png"
-            />
-          </a>
-
-          <a href="https://github.com/samucatezu" target="_blank">
-            <img src="https://img.icons8.com/ios-filled/40/3f51b5/github.png" />
-          </a>
-          <a
-            href="https://profile.codersrank.io/user/samucatezu/"
-            target="_blank"
-          >
-            <img
-              src="https://img.icons8.com/external-prettycons-solid-prettycons/40/3f51b5/external-profile-education-prettycons-solid-prettycons.png"
-            />
-          </a>
-        </div>
       </mat-card>
     </div>
     <mat-card
       id="top-languages"
       name="top-languages"
-      style="margin-left: 35rem; position: absolute; top: 2px"
+      style="
+        margin-left: 35rem;
+        position: absolute;
+        top: 2px;
+        color: rgb(245, 209, 9);
+        font-family: Roboto Mono;
+      "
       class="github mat-elevation-z8"
     >
       <h1>
@@ -155,7 +153,14 @@
         top: 14rem;
       "
     >
-      <mat-card-title style="margin-bottom: 1rem; text-align: center"
+      <mat-card-title
+        style="
+          margin-bottom: 1rem;
+          text-align: center;
+          color: rgb(245, 209, 9);
+          font-family: Roboto Mono;
+          margin-bottom: 1rem;
+        "
         >Languages/tools/frameworks i've knowleadge</mat-card-title
       >
       <div style="display: flex">
@@ -287,6 +292,41 @@
             alt="python"
             width="40"
             height="40"
+          />
+        </a>
+      </div>
+    </mat-card>
+    <mat-card
+      class="mat-elevation-z8"
+      style="
+        width: 450px;
+        height: 110px;
+        margin-left: 35rem;
+        position: absolute;
+        top: 21rem;
+        color: rgb(245, 209, 9);
+        font-family: Roboto Mono;
+      "
+    >
+      <mat-card-title>My professional social networks</mat-card-title>
+      <div style="display: flex; margin-left: 8rem">
+        <a
+          style="display: flex"
+          href="https://www.linkedin.com/in/samuel-almeida-ads/"
+          target="_blank"
+        >
+          <img src="https://img.icons8.com/glyph-neue/64/ffffff/linkedin.png" />
+        </a>
+
+        <a href="https://github.com/samucatezu" target="_blank">
+          <img src="https://img.icons8.com/ios-glyphs/64/ffffff/github.png" />
+        </a>
+        <a
+          href="https://profile.codersrank.io/user/samucatezu/"
+          target="_blank"
+        >
+          <img
+            src="https://img.icons8.com/ios-glyphs/64/ffffff/developer.png"
           />
         </a>
       </div>

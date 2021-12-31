@@ -23,10 +23,19 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { LayoutModule } from '@angular/cdk/layout';
 import { AppRoutingModule } from './app-routing.module';
-import { TestFieldComponent } from './test-field/test-field.component';
+import { TestFieldComponent } from './pages/test-field/test-field.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './pages/about/about.component';
+import { HelpComponent } from './pages/help/help.component';
 
 @NgModule({
-  declarations: [AppComponent, layoutComponent, TestFieldComponent],
+  declarations: [
+    AppComponent,
+    layoutComponent,
+    TestFieldComponent,
+    AboutComponent,
+    HelpComponent,
+  ],
   imports: [
     BrowserModule,
     MatToolbarModule,
@@ -40,6 +49,7 @@ import { TestFieldComponent } from './test-field/test-field.component';
     ReactiveFormsModule,
     HttpClientModule,
     NgChartsModule,
+    FontAwesomeModule,
     // RouterModule.forRoot([
     //   { path: '', component: CepHomeComponent },
     //   { path: 'cep/:cep', component: CepDetailsComponent },
