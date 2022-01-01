@@ -2,7 +2,7 @@
 
 Angular project to be the base of my features/tests and projects.
 
-Check the project online [here](https://samucatezu.github.io/AngularTestBase/layout)
+Check the project online [here](https://samucatezu.github.io/AngularTestBase/)
 
 
  AngularViaCep
