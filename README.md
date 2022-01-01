@@ -2,6 +2,7 @@
 
 Angular project to be the base of my features/tests and projects.
 
+Cheack the project online [here](https://samucatezu.github.io/AngularTestBase/layout)
 
 
  AngularViaCep
@@ -18,12 +19,14 @@ Have a personal project base to test features and small programs in angular
 
 ## Next steps:
 
- - Create an dashboard to show some functions that i made for work or study
- - add an responsive sidenav
- - add buttons with links to my social networks
- - add an page with informations about the project
- - add an page about myself with contact
- - post the project using github paghes
+ - :ok: Create an test field to show some functions that i made for work or study
+ - :ok: add an responsive sidenav
+ - :ok: add buttons with links to my social networks
+ - :ok: add an card with informations about the project
+ - :ok: add an page about myself with contact
+ - :ok: post the project using github paghes
+ - Insert Help and About cards inside Home Page
+ - Make the project mobile first
 
 
 
@@ -33,7 +36,7 @@ Have a personal project base to test features and small programs in angular
 
 ### tutorials that helped me:
 - [Dashboard](https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics/)
-- [Sidebar](https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics/)
+- [Sidebar](https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/)
 
 
 
