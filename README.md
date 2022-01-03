@@ -8,10 +8,6 @@ Check the project online [here](https://samucatezu.github.io/AngularTestBase/)
  AngularViaCep
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Pereira-Araujo/users-api/blob/main/LICENSE.md)
-
-:heavy_check_mark: Program for study withi public API  :stuck_out_tongue:	
-
-  
       
 ## project's goal
 
@@ -32,7 +28,6 @@ Have a personal project base to test features and small programs in angular
 
 ### what i used
 - [Angular Material](https://material.angular.io/) 
-- [Charts.js](https://www.npmjs.com/package/ng2-charts)
 
 ### tutorials that helped me:
 - [Dashboard](https://www.smashingmagazine.com/2020/07/responsive-dashboard-angular-material-ng2-charts-schematics/)
