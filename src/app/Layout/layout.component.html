@@ -1,4 +1,11 @@
-<mat-toolbar style="gap: 0.2rem; font-family: Roboto Mono" color="primary">
+<mat-toolbar
+  style="
+    gap: 0.2rem;
+    background-color: #0a0a23;
+    color: white;
+    font-family: Roboto Mono;
+  "
+>
   <button
     mat-icon-button
     *ngIf="sidenav.mode === 'over'"
@@ -309,7 +316,7 @@
       "
     >
       <mat-card-title>My professional social networks</mat-card-title>
-      <div style="display: flex; margin-left: 8rem">
+      <div style="display: flex; position: -webkit-sticky">
         <a
           style="display: flex"
           href="https://www.linkedin.com/in/samuel-almeida-ads/"
