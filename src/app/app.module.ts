@@ -25,9 +25,10 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { AppRoutingModule } from './app-routing.module';
 import { TestFieldComponent } from './pages/test-field/test-field.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PortfolioComponent } from './pages/test-field/portfolio/portfolio.component';
 
 @NgModule({
-  declarations: [AppComponent, layoutComponent, TestFieldComponent],
+  declarations: [AppComponent, layoutComponent, TestFieldComponent, PortfolioComponent],
   imports: [
     BrowserModule,
     MatToolbarModule,
