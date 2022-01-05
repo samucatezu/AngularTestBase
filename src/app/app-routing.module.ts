@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { layoutComponent } from './Layout/layout.component';
 import { TestFieldComponent } from './pages/test-field/test-field.component';
+import { PortfolioComponent } from './pages/test-field/portfolio/portfolio.component';
 
 const routes: Routes = [
   { path: '', component: layoutComponent },
   { path: 'layout', component: layoutComponent },
   { path: 'testfield', component: TestFieldComponent },
+  { path: 'portfolio', component: PortfolioComponent },
 ];
 
 @NgModule({
