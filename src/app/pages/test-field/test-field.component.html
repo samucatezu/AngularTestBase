@@ -70,6 +70,13 @@
       </button>
     </a>
 
+    <a style="color: white; text-decoration: none" [routerLink]="['/layout']">
+      <button mat-button class="menu-button">
+        <mat-icon>home</mat-icon>
+        <span>home</span>
+      </button>
+    </a>
+
     <a style="color: white; text-decoration: none" [routerLink]="['/about']">
       <button mat-button class="menu-button">
         <mat-icon>info</mat-icon>
@@ -87,14 +94,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-card class="principal">
-      <mat-card-title
-        style="
-          margin-left: 35rem;
-          margin-top: 1rem;
-          color: rgb(245, 209, 9);
-          font-family: Roboto Mono;
-        "
-      >
+      <mat-card-title style="color: rgb(245, 209, 9); font-family: Roboto Mono">
         Tests field
       </mat-card-title>
     </mat-card>
